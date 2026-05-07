@@ -1,0 +1,10 @@
+<div class="chat-box">
+    <h3>Neo AI Assistant</h3>
+
+    <div id="chatArea"></div>
+
+    <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Tulis pesan...">
+        <button onclick="sendMessage()">➤</button>
+    </div>
+</div>
