@@ -1,0 +1,21 @@
+.light-mode{
+    background:#f1f5f9;
+    color:#111827;
+}
+
+.light-mode header{
+    background:white;
+}
+
+#themeToggle{
+    position:fixed;
+    top:20px;
+    right:20px;
+    z-index:999;
+    padding:10px 15px;
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+    background:#38bdf8;
+    color:white;
+}
