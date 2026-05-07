@@ -1,0 +1,25 @@
+function sendMessage(){
+
+    const input = document.getElementById("userInput");
+    const chatArea = document.getElementById("chatArea");
+
+    let message = input.value;
+
+    if(message.trim() === "") return;
+
+    chatArea.innerHTML += `
+        <p><b>Kamu:</b> ${message}</p>
+    `;
+
+    setTimeout(() => {
+
+        chatArea.innerHTML += `
+            <p><b>Neo AI:</b> Terima kasih sudah bertanya 😊</p>
+        `;
+
+        chatArea.scrollTop = chatArea.scrollHeight;
+
+    }, 500);
+
+    input.value = "";
+}
