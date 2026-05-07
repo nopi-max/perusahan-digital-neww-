@@ -1,0 +1,8 @@
+#chatArea{
+    height:150px;
+    overflow-y:auto;
+    margin-bottom:10px;
+    background:#0f172a;
+    padding:10px;
+    border-radius:10px;
+}
